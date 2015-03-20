@@ -4,8 +4,49 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "687c474e391c4f3fda468a6e82ee6638",
-    "packages": [],
+    "hash": "0f170925e21d9753c729d6902bc6d153",
+    "packages": [
+        {
+            "name": "lichtner/fluentpdo",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lichtner/fluentpdo.git",
+                "reference": "fa2721faf75fc54c29553798886c1bf7c6d07444"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lichtner/fluentpdo/zipball/fa2721faf75fc54c29553798886c1bf7c6d07444",
+                "reference": "fa2721faf75fc54c29553798886c1bf7c6d07444",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "FluentPDO/FluentPDO.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0",
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Marek Lichtner",
+                    "homepage": "http://licht.sk/"
+                }
+            ],
+            "description": "FluentPDO is small PHP library for rapid query building. Killer feature is smart join builder which generates joins automatically.",
+            "homepage": "http://fluentpdo.com/",
+            "keywords": [
+                "database",
+                "dbal",
+                "pdo"
+            ],
+            "time": "2015-01-26 12:23:08"
+        }
+    ],
     "packages-dev": [
         {
             "name": "doctrine/instantiator",
@@ -1176,7 +1217,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "lichtner/fluentpdo": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
